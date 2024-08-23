@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>SHIRON</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1 class="header-name">Широн</h1>
+            <p class="header-number">+7(963)892-40-04</p>
+        </div>
+    </header>
+    <main>
+        <div class="whatsapp-button pulse" id="whatsappButton">
+            <img src="image/whatsapp.png" alt="WhatsApp"/>
+        </div>
+        <div class="whatsapp-overlay" id="whatsapp-overlay">
+            <div class="whatsapp-popup" id="whatsappPopup">
+                <div class="whatsapp-popup-content">
+                    <div class="whatsapp-popup-header">Мы в мессенджерах</div>
+                    <div class="whatsapp-popup-body">
+                        <button class="whatsapp-contact-button">
+                            <img src="image/whats.png" alt="WhatsApp" class="whatsapp-icon" />
+                            <p>Написать в WhatsApp</p>
+                        </button>
+                        <div class="qr-code">
+                            <img src="image/qr.png" alt="QR Code" class="qr-image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-about-main">
+            <div class="leftside-top-main">
+                <h1 class="leftside-top-main-h1">Широн</h1>
+                <p class="leftside-top-main-p">Динамично развивающаяся компания в области производства грузоподъемного оборудования</p>
+                <a href="#catalog-a" id="company-a"><p class="leftside-top-main-link">Перейти в каталог</p></a>
+            </div>
+            <div class="rightside-top-main"></div>
+        </div>
+        <div class="about-company-main">
+            <h2 class="about-company-main-h2">О компании</h2>
+            <p class="about-company-main-p">Мы молоды и ориентированы на будущие достижения. Наш потенциал огромен. Мы готовы постоянно и неуклонно следовать заявленным целям, подтверждая лозунг <span class="lozung">дела важнее слов.</span></p>
+        </div>
+        <div class="about-company-statistic-main">
+            <div class="years">
+                <h2 class="about-company-h2">2</h2>
+                <p class="about-p">года на рынке</p>
+            </div>
+            <div class="clients">
+                <h2 class="about-company-h2">>100</h2>
+                <p class="about-p">довольных клиентов</p>
+            </div>
+            <div class="product">
+                <h2 class="about-company-h2">>5000</h2>
+                <p class="about-p">производимой продукции ежемесячно</p>
+            </div>    
+            <div class="items">
+                <h2 class="about-company-h2">>50</h2>
+                <p class="about-p">видов грузозахватных приспособлений</p>
+            </div>
+        </div>
+        <div class="aim-company-main">
+            <h2 class="about-company-main-h2">Цели компании</h2>
+            <p class="about-company-main-p">Завоевание лидирующих позиций в области разработки и внедрения новых технологий в производстве грузоподъемного оборудования и приспособлений.Улучшение качества и освоение новых видов продукции.Сохранение и расширение рынков сбыта.</p>
+        </div>
+        <div class="princips-main">
+            <h2 class="about-company-main-h2">Наши принципы</h2>
+            <div class="princips-element-main">
+                <div class="princ-elem">
+                    <h3 class="princips-element-h2">Доверие и честность</h3>
+                    <p class="princips-element-p">Мы строим наши отношения с клиентами и партнерами на основе прозрачности и искренности, что позволяет нам создать долгосрочное сотрудничество, основанное на взаимном уважении и доверии.</p>
+                </div>
+                <div class="princ-elem">
+                    <h3 class="princips-element-h2">Справедливость</h3>
+                    <p class="princips-element-p">Мы всегда стремимся к справедливому и беспристрастному подходу в своей работе, обеспечивая равные условия для всех наших клиентов и партнеров.</p>
+                </div>
+                <div class="princ-elem-last">
+                    <h3 class="princips-element-h2">Профессионализм</h3>
+                    <p class="princips-element-p">Наша команда состоит из высококвалифицированных специалистов, которые постоянно совершенствуют свои навыки, чтобы предоставлять услуги на самом высоком уровне.</p>
+                </div>
+            </div>
+        </div>
+        <div class="mission-main">
+            <h2 class="about-company-main-h2">Миссия компании</h2>
+            <p class="about-company-main-p" >Стать лидером в предоставлении надежных решений для подъема и
+                перемещения груза, повышающих конкурентноспособность и производительность
+                бизнеса <span id="catalog-a"></span>клиентов.</p>
+        </div>
+        <h2 class="about-company-main-h2">Каталог продукции</h2>
+        <p class="catalog-p">Если возникнут трудности в формировании заказа, вас проконсультируют</p>
+        <button id="elem2rightside"><p class="leftside-top-main-link-2">Связаться с нами</p></button>
+        <div class="popup-overlay" id="popupOverlay">
+            <div class="popup">
+                <div class="close-btn" onclick="closePopup()">X</div>
+                <h2 class="popup-h2">Связаться с нами</h2>
+                <form id="contactForm">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Номер телефона</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+7 (999) 999-99-99">
+                    <button type="submit">отправить</button>
+                    <div class="consent">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <div class="custom-checkbox"></div>
+                        <label for="consent">Нажимая кнопку «Отправить» или «Скачать», я даю свое согласие на обработку моих
+                            персональных данных, в соответствии с Федеральным законом от 27.07.2006 года № 152-ФЗ
+                            «О персональных данных», на условиях и для целей, определенных в Согласии на обработку
+                            персональных данных</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="catalog-main">
+            <div class="item-catalog large-item">
+                <p class="item-catalog-p">Канатные стропы</p>
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Коуши</p>
+                <img src="image/2.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Цепные тросы</p>
+                <img src="image/3.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Текстильные стропы</p>
+                <img src="image/4.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Стяжные ремни</p>
+                <img src="image/5.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Буксировочные ремни</p>
+                <img src="image/6.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Цепи противоскольжения</p>
+                <img src="image/7.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Тапрепы</p>
+                <img src="image/8.png" class="catalog-image">
+            </div>
+            <div class="item-catalog">
+                <p class="item-catalog-p">Траверсы</p>
+                <img src="image/9.png" class="catalog-image-last">
+            </div>
+        </div>
+        <p class="about-company-mini">[о компании]</p>
+        <h2 class="about-company-main-h2" style="margin:0;">Фото с отгрузок</h2>
+        <div class="photo-main">
+            <div class="photo-item">
+                <p class="zag-photo">Поставка коушей</p>
+                <img src="image/2-1.png" class="image-photo">
+                <p class="delivery-photo"><span>[доставка]</span> в город Новосибирск</span></p>
+            </div>
+            <div class="photo-item">
+                <p class="zag-photo">Поставка цепных строп</p>
+                <img src="image/2-2.png" class="image-photo">
+                <p class="delivery-photo"><span>[доставка]</span> в город Уфа</span></p>
+            </div>
+            <div class="photo-item">
+                <p class="zag-photo">Поставка канатных строп</p>
+                <img src="image/2-3.png" class="image-photo">
+                <p class="delivery-photo"><span>[доставка]</span> в город Сургут
+            </div>
+            <div class="photo-item">
+                <p class="zag-photo">Поставка траверсы</p>
+                <img src="image/2-4.png" class="image-photo">
+                <p class="delivery-photo"><span>[доставка]</span> в город Магнитогорск</span></p>
+            </div>
+            <div class="photo-item">
+                <p class="zag-photo">Поставка цепных строп</p>
+                <img src="image/2-5.png" class="image-photo">
+                <p class="delivery-photo"><span>[доставка]</span> в город Челябинск</span></p>
+            </div>
+            <div class="photo-item">
+                <p class="zag-photo">Поставка чалочных крюков</p>
+                <img src="image/2-6.png" class="image-photo">
+                <p class="delivery-photo"><span>[доставка]</span> в город Екатеринбург</span></p>
+            </div>
+        </div>
+        <div class="working-main">
+            <div class="working-main-text">
+                <p class="part-working">[этапы работы]</p>
+                <p class="text-zag-working">Как мы работаем</p>
+                <div class="list-working">
+                    <div class="list-item-working">
+                        <p class="item-num">01</p>
+                        <p class="item-text">Заявка</p>
+                    </div>
+                    <div class="list-item-working">
+                        <p class="item-num">02</p>
+                        <p class="item-text">Расчет</p>
+                    </div>
+                    <div class="list-item-working">
+                        <p class="item-num">03</p>
+                        <p class="item-text">Договор и оплата</p>
+                    </div>
+                    <div class="list-item-working">
+                        <p class="item-num">04</p>
+                        <p class="item-text" id="sert-a">Производство и отгрузка</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="certificate">
+            <h2 class="about-company-main-h2" style="margin-top:2%">Сертификаты</h2>
+            <div class="paperlist">
+                <div class="paperlist-item">
+                    <p class="paperlist-item-p">Сертификат соответствия на<br>талрепы</p>
+                    <img src="image/set-tal.png" class="paperlist-item-img">
+                </div>
+                <div class="paperlist-item">
+                    <p class="paperlist-item-p">Сертификат соответствия на<br>коуши для стального каната</p>
+                    <img src="image/ser-trav.png" class="paperlist-item-img">
+                </div>
+                <div class="paperlist-item">
+                    <p class="paperlist-item-p">Сертификат соответствия на<br>стяжные ремни</p>
+                    <img src="image/ser-rem.png" class="paperlist-item-img">
+                </div>
+                <div class="paperlist-item">
+                    <p class="paperlist-item-p">Декларация о соответствии<br>(траверсы грузовые)</p>
+                    <img src="image/dec-trab.png" class="paperlist-item-img">
+                </div>
+                <div class="paperlist-item">
+                    <p class="paperlist-item-p">Декларация о соответствии<br>(стропы)</p>
+                    <img src="image/dec-strop.png" class="paperlist-item-img">
+                </div>
+            </div>
+        </div>
+        <div class="office">
+            <div class="office-top">
+                <h4 class="office-h4">офис и производство</h4>
+                <p class="office-p">453510, республика Башкортостан, г.</p>
+                <p class="office-p">Белорецк, ул. Тюленина, 17</p>
+                <p class="office-p">ПН-ПТ с 8:00 до 18:00</p>
+            </div>
+            <div class="office-bottom">
+                <h4 class="office-h4">по вопросам покупки</h4>
+                <p class="office-p">shiron2022@mail.ru</p>
+                <p class="office-p">+7(963)892-40-04</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="list-footer">
+            <a href="#catalog-a"><h4>Каталог</h4></a>
+            <a href="#sert-a"><h4>Сертификаты</h4></a>
+            <a href="#company-a"><h4>О компании</h4></a>
+        </div>
+        <p class="ooo-footer">© 2024 ООО «Широн»</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
