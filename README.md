@@ -156,3 +156,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 ## Mobile version
 There is nothing special for mobile versions - essentially the fonts and indents have been reduced in size, but the animation elements have remained the same.
 ## Photos
+![main](image/whatsapp.gif)
+![main](image/feedback.gif)
+![main](image/gif-site.gif)
